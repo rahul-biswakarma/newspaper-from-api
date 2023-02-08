@@ -1,0 +1,88 @@
+footer {
+	width: 100%;
+	height: auto;
+	border: 3px solid var(--dark-gray);
+	border-left: 0px;
+	border-right: 0px;
+	box-shadow: 0 1px 0 var(--black), 0 -1px 0 var(--black);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px;
+	gap: 10px;
+}
+
+.footer-box-container {
+	display: flex;
+	gap: 3px;
+}
+
+.blue-box,
+.pink-box,
+.yellow-box,
+.black-box,
+.green-box,
+.red-box {
+	width: 10px;
+	height: 10px;
+}
+
+.yellow-box {
+	background: var(--yellow);
+}
+
+.black-box {
+	background: var(--black);
+}
+
+.blue-box {
+	background: var(--blue);
+}
+
+.pink-box {
+	background: var(--pink);
+}
+
+.green-box {
+	background: green;
+}
+
+.red-box {
+	background: red;
+}
+
+.footer-seperator {
+	width: 100%;
+	border-radius: 25px;
+	background: var(--gray);
+}
+
+.next-button {
+	height: 100%;
+	background: var(--blue);
+	padding: 5px 2rem;
+	color: white;
+	font-weight: 600;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+.next-button:hover {
+	background: darkblue;
+}
+
+.previous-button {
+	height: 100%;
+	background: var(--blue);
+	padding: 5px 2rem;
+	color: white;
+	font-weight: 600;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+.previous-button:hover {
+	background: darkblue;
+}
